@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: RailwayControl.SignalAspect
+  commentId: T:RailwayControl.SignalAspect
+  id: SignalAspect
+  parent: RailwayControl
+  children:
+  - RailwayControl.SignalAspect.FlashingWhite
+  - RailwayControl.SignalAspect.Green
+  - RailwayControl.SignalAspect.Red
+  - RailwayControl.SignalAspect.Yellow
+  langs:
+  - csharp
+  - vb
+  name: SignalAspect
+  nameWithType: SignalAspect
+  fullName: RailwayControl.SignalAspect
+  type: Enum
+  source:
+    id: SignalAspect
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 16
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Показания путевого светофора.
+  remarks: Используется диспетчерской системой для регулирования скорости на блок-участке.
+  example: []
+  syntax:
+    content: public enum SignalAspect
+    content.vb: Public Enum SignalAspect
+- uid: RailwayControl.SignalAspect.Red
+  commentId: F:RailwayControl.SignalAspect.Red
+  id: Red
+  parent: RailwayControl.SignalAspect
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: SignalAspect.Red
+  fullName: RailwayControl.SignalAspect.Red
+  type: Field
+  source:
+    id: Red
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 22
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Запрещающий сигнал.
+  example: []
+  syntax:
+    content: Red = 0
+    return:
+      type: RailwayControl.SignalAspect
+- uid: RailwayControl.SignalAspect.Yellow
+  commentId: F:RailwayControl.SignalAspect.Yellow
+  id: Yellow
+  parent: RailwayControl.SignalAspect
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: SignalAspect.Yellow
+  fullName: RailwayControl.SignalAspect.Yellow
+  type: Field
+  source:
+    id: Yellow
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 28
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Предупреждающий сигнал.
+  example: []
+  syntax:
+    content: Yellow = 1
+    return:
+      type: RailwayControl.SignalAspect
+- uid: RailwayControl.SignalAspect.Green
+  commentId: F:RailwayControl.SignalAspect.Green
+  id: Green
+  parent: RailwayControl.SignalAspect
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: SignalAspect.Green
+  fullName: RailwayControl.SignalAspect.Green
+  type: Field
+  source:
+    id: Green
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 34
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Разрешающий сигнал.
+  example: []
+  syntax:
+    content: Green = 2
+    return:
+      type: RailwayControl.SignalAspect
+- uid: RailwayControl.SignalAspect.FlashingWhite
+  commentId: F:RailwayControl.SignalAspect.FlashingWhite
+  id: FlashingWhite
+  parent: RailwayControl.SignalAspect
+  langs:
+  - csharp
+  - vb
+  name: FlashingWhite
+  nameWithType: SignalAspect.FlashingWhite
+  fullName: RailwayControl.SignalAspect.FlashingWhite
+  type: Field
+  source:
+    id: FlashingWhite
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 40
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Пригласительный сигнал, лунно-белый мигающий.
+  example: []
+  syntax:
+    content: FlashingWhite = 3
+    return:
+      type: RailwayControl.SignalAspect
+references:
+- uid: RailwayControl
+  commentId: N:RailwayControl
+  name: RailwayControl
+  nameWithType: RailwayControl
+  fullName: RailwayControl
+- uid: RailwayControl.SignalAspect
+  commentId: T:RailwayControl.SignalAspect
+  parent: RailwayControl
+  href: RailwayControl.SignalAspect.html
+  name: SignalAspect
+  nameWithType: SignalAspect
+  fullName: RailwayControl.SignalAspect

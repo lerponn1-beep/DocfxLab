@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: RailwayControl.TrainState
+  commentId: T:RailwayControl.TrainState
+  id: TrainState
+  parent: RailwayControl
+  children:
+  - RailwayControl.TrainState.Braking
+  - RailwayControl.TrainState.Emergency
+  - RailwayControl.TrainState.Idle
+  - RailwayControl.TrainState.Running
+  langs:
+  - csharp
+  - vb
+  name: TrainState
+  nameWithType: TrainState
+  fullName: RailwayControl.TrainState
+  type: Enum
+  source:
+    id: TrainState
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 47
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Текущий эксплуатационный статус поезда.
+  example: []
+  syntax:
+    content: public enum TrainState
+    content.vb: Public Enum TrainState
+- uid: RailwayControl.TrainState.Idle
+  commentId: F:RailwayControl.TrainState.Idle
+  id: Idle
+  parent: RailwayControl.TrainState
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: TrainState.Idle
+  fullName: RailwayControl.TrainState.Idle
+  type: Field
+  source:
+    id: Idle
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 53
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Поезд находится на станции в ожидании отправления.
+  example: []
+  syntax:
+    content: Idle = 0
+    return:
+      type: RailwayControl.TrainState
+- uid: RailwayControl.TrainState.Running
+  commentId: F:RailwayControl.TrainState.Running
+  id: Running
+  parent: RailwayControl.TrainState
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: TrainState.Running
+  fullName: RailwayControl.TrainState.Running
+  type: Field
+  source:
+    id: Running
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 59
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Движение по перегону в штатном режиме.
+  example: []
+  syntax:
+    content: Running = 1
+    return:
+      type: RailwayControl.TrainState
+- uid: RailwayControl.TrainState.Braking
+  commentId: F:RailwayControl.TrainState.Braking
+  id: Braking
+  parent: RailwayControl.TrainState
+  langs:
+  - csharp
+  - vb
+  name: Braking
+  nameWithType: TrainState.Braking
+  fullName: RailwayControl.TrainState.Braking
+  type: Field
+  source:
+    id: Braking
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 65
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Применено служебное или экстренное торможение.
+  example: []
+  syntax:
+    content: Braking = 2
+    return:
+      type: RailwayControl.TrainState
+- uid: RailwayControl.TrainState.Emergency
+  commentId: F:RailwayControl.TrainState.Emergency
+  id: Emergency
+  parent: RailwayControl.TrainState
+  langs:
+  - csharp
+  - vb
+  name: Emergency
+  nameWithType: TrainState.Emergency
+  fullName: RailwayControl.TrainState.Emergency
+  type: Field
+  source:
+    id: Emergency
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 71
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Аварийная остановка или неисправность систем.
+  example: []
+  syntax:
+    content: Emergency = 3
+    return:
+      type: RailwayControl.TrainState
+references:
+- uid: RailwayControl
+  commentId: N:RailwayControl
+  name: RailwayControl
+  nameWithType: RailwayControl
+  fullName: RailwayControl
+- uid: RailwayControl.TrainState
+  commentId: T:RailwayControl.TrainState
+  parent: RailwayControl
+  href: RailwayControl.TrainState.html
+  name: TrainState
+  nameWithType: TrainState
+  fullName: RailwayControl.TrainState
+- uid: RailwayControl.SignalAspect
+  commentId: T:RailwayControl.SignalAspect
+  parent: RailwayControl
+  href: RailwayControl.SignalAspect.html
+  name: SignalAspect
+  nameWithType: SignalAspect
+  fullName: RailwayControl.SignalAspect

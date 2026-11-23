@@ -1,0 +1,22 @@
+### YamlMime:TableOfContent
+items:
+- uid: RailwayControl
+  name: RailwayControl
+  type: Namespace
+  items:
+  - uid: RailwayControl.RoutePriority
+    name: RoutePriority
+    type: Enum
+  - uid: RailwayControl.SignalAspect
+    name: SignalAspect
+    type: Enum
+  - uid: RailwayControl.TrainDispatcher
+    name: TrainDispatcher
+    type: Class
+  - uid: RailwayControl.TrainState
+    name: TrainState
+    type: Enum
+  - uid: RailwayControl.TrainTelemetry
+    name: TrainTelemetry
+    type: Struct
+memberLayout: SamePage

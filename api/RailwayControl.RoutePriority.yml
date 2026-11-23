@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: RailwayControl.RoutePriority
+  commentId: T:RailwayControl.RoutePriority
+  id: RoutePriority
+  parent: RailwayControl
+  children:
+  - RailwayControl.RoutePriority.High
+  - RailwayControl.RoutePriority.Low
+  - RailwayControl.RoutePriority.Normal
+  langs:
+  - csharp
+  - vb
+  name: RoutePriority
+  nameWithType: RoutePriority
+  fullName: RailwayControl.RoutePriority
+  type: Enum
+  source:
+    id: RoutePriority
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 78
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Категория приоритета маршрута.
+  example: []
+  syntax:
+    content: public enum RoutePriority
+    content.vb: Public Enum RoutePriority
+- uid: RailwayControl.RoutePriority.High
+  commentId: F:RailwayControl.RoutePriority.High
+  id: High
+  parent: RailwayControl.RoutePriority
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: RoutePriority.High
+  fullName: RailwayControl.RoutePriority.High
+  type: Field
+  source:
+    id: High
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 82
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Высший приоритет, скоростные пассажирские поезда.
+  example: []
+  syntax:
+    content: High = 1
+    return:
+      type: RailwayControl.RoutePriority
+- uid: RailwayControl.RoutePriority.Normal
+  commentId: F:RailwayControl.RoutePriority.Normal
+  id: Normal
+  parent: RailwayControl.RoutePriority
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: RoutePriority.Normal
+  fullName: RailwayControl.RoutePriority.Normal
+  type: Field
+  source:
+    id: Normal
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 85
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Стандартный приоритет, обычные пассажирские и пригородные поезда.
+  example: []
+  syntax:
+    content: Normal = 2
+    return:
+      type: RailwayControl.RoutePriority
+- uid: RailwayControl.RoutePriority.Low
+  commentId: F:RailwayControl.RoutePriority.Low
+  id: Low
+  parent: RailwayControl.RoutePriority
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: RoutePriority.Low
+  fullName: RailwayControl.RoutePriority.Low
+  type: Field
+  source:
+    id: Low
+    path: D:\Универ 3 курс\ПРПО\lab8\task3\DocfxLab\src\RailwayControl\Types.cs
+    startLine: 89
+  assemblies:
+  - RailwayControl
+  namespace: RailwayControl
+  summary: Низкий приоритет, грузовые и хозяйственные составы.
+  example: []
+  syntax:
+    content: Low = 3
+    return:
+      type: RailwayControl.RoutePriority
+references:
+- uid: RailwayControl
+  commentId: N:RailwayControl
+  name: RailwayControl
+  nameWithType: RailwayControl
+  fullName: RailwayControl
+- uid: RailwayControl.RoutePriority
+  commentId: T:RailwayControl.RoutePriority
+  parent: RailwayControl
+  href: RailwayControl.RoutePriority.html
+  name: RoutePriority
+  nameWithType: RoutePriority
+  fullName: RailwayControl.RoutePriority

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: RailwayControl
+  commentId: N:RailwayControl
+  id: RailwayControl
+  children:
+  - RailwayControl.RoutePriority
+  - RailwayControl.SignalAspect
+  - RailwayControl.TrainDispatcher
+  - RailwayControl.TrainState
+  - RailwayControl.TrainTelemetry
+  langs:
+  - csharp
+  - vb
+  name: RailwayControl
+  nameWithType: RailwayControl
+  fullName: RailwayControl
+  type: Namespace
+  assemblies:
+  - RailwayControl
+references:
+- uid: RailwayControl.TrainDispatcher
+  commentId: T:RailwayControl.TrainDispatcher
+  href: RailwayControl.TrainDispatcher.html
+  name: TrainDispatcher
+  nameWithType: TrainDispatcher
+  fullName: RailwayControl.TrainDispatcher
+- uid: RailwayControl.SignalAspect
+  commentId: T:RailwayControl.SignalAspect
+  parent: RailwayControl
+  href: RailwayControl.SignalAspect.html
+  name: SignalAspect
+  nameWithType: SignalAspect
+  fullName: RailwayControl.SignalAspect
+- uid: RailwayControl.TrainState
+  commentId: T:RailwayControl.TrainState
+  parent: RailwayControl
+  href: RailwayControl.TrainState.html
+  name: TrainState
+  nameWithType: TrainState
+  fullName: RailwayControl.TrainState
+- uid: RailwayControl.RoutePriority
+  commentId: T:RailwayControl.RoutePriority
+  parent: RailwayControl
+  href: RailwayControl.RoutePriority.html
+  name: RoutePriority
+  nameWithType: RoutePriority
+  fullName: RailwayControl.RoutePriority
+- uid: RailwayControl.TrainTelemetry
+  commentId: T:RailwayControl.TrainTelemetry
+  parent: RailwayControl
+  href: RailwayControl.TrainTelemetry.html
+  name: TrainTelemetry
+  nameWithType: TrainTelemetry
+  fullName: RailwayControl.TrainTelemetry
+- uid: RailwayControl
+  commentId: N:RailwayControl
+  name: RailwayControl
+  nameWithType: RailwayControl
+  fullName: RailwayControl
